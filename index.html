@@ -500,13 +500,14 @@ footer{
 /* ─── RESPONSIVE ─────────────────────────────────── */
 @media(max-width:900px){
   .skills-grid{grid-template-columns:1fr 1fr}
-  #home{grid-template-columns:1fr;gap:48px;padding-top:calc(var(--nav-h)+30px)}
+ #home{grid-template-columns:1fr;gap:48px;padding-top:calc(var(--nav-h) + 60px)}
   .photo-wrap{max-width:260px;margin:0 auto}
   .about-grid{grid-template-columns:1fr}
   .stats-row{grid-template-columns:1fr 1fr}
   .stats-row .stat:last-child{grid-column:span 2}
 }
 @media(max-width:700px){
+#home{padding-top:calc(var(--nav-h) + 80px);}
   .nav-links,.nav-hire{display:none}
   .hamburger{display:flex}
   .mobile-menu{display:flex}
@@ -579,7 +580,7 @@ footer{
   <!-- ── HERO ── -->
   <section id="home">
     <div class="hero-left">
-      <br><br>
+      
       <div class="eyebrow">PGDM 2026 · Open to Work</div>
       <h1>ABHIPSHA<br><span class="hl">ROUT</span></h1>
       <div class="hero-role">Business Analyst <span>&amp;</span> HR Professional</div>
