@@ -8,7 +8,7 @@
 <meta property="og:title" content="Abhipsha Rout — Business Analyst & HR Professional">
 <meta property="og:description" content="Translating messy business problems into clean data decisions. Bridging people processes with analytical thinking.">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d1d1f'/%3E%3Crect x='8' y='17' width='4' height='8' rx='1' fill='%232997ff'/%3E%3Crect x='14' y='12' width='4' height='13' rx='1' fill='%232997ff'/%3E%3Crect x='20' y='7' width='4' height='18' rx='1' fill='%232997ff'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d1d1f'/%3E%3Ctext x='16' y='23' font-family='Arial, Helvetica, sans-serif' font-weight='700' font-size='19' fill='%232997ff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -257,6 +257,9 @@ h1 .hl{color:var(--primary)}
   justify-self:center;
   width:100%;
   max-width:420px;
+  opacity:0;
+  transform:translateY(24px);
+  animation:fadeUp .9s cubic-bezier(.2,.7,.2,1) .3s forwards;
 }
 .hero-photo{
   position:relative;
